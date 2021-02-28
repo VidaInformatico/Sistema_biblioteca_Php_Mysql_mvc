@@ -1,7 +1,7 @@
 <?php
 require_once("Config/Config.php");
 require_once("Helpers/Helpers.php");
-$url = isset($_GET['url']) ? $_GET['url'] : "home/home";
+$url = isset($_GET['url']) ? $_GET['url'] : "Home/home";
 $arrUrl = explode("/", $url);
 $controller = $arrUrl[0];
 $methop = $arrUrl[0];
